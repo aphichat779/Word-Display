@@ -1,0 +1,49 @@
+/* กำหนดสไตล์ของหน้าเว็บ */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b8b4b4;
+    margin: 0;
+    padding: 0;
+}
+
+/* กำหนดสไตล์ของ container */
+.container {
+    text-align: center;
+    background-color: #9c9595;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(15, 13, 13, 0.1);
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 400px;
+}
+
+/* กำหนดสไตล์ของหัวเว็บไซต์ */
+h1 {
+    text-align: center;
+    font-size: 36px; /* เพิ่มขนาดอักษร */
+    color: #212020;
+    margin-top: 30px;
+}
+
+/* กำหนดสไตล์ของป้ายระบุ */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* กำหนดสไตล์ของปุ่มกลับ */
+a {
+    text-decoration: none;
+    background-color: #062ede;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #05025b;
+}

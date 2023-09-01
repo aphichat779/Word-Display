@@ -1,0 +1,85 @@
+/* กำหนดสไตล์ของหน้าเว็บ */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bcb4b4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* กำหนดสไตล์ของ container */
+.container {
+    text-align: center;
+    background-color: #979393;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 50px auto;
+    max-width: 400px;
+}
+
+/* กำหนดสไตล์ของหัวเว็บไซต์ */
+h1 {
+    font-size: 30px;
+    color: #afb1b3;
+}
+
+/* กำหนดสไตล์ของแบบฟอร์ม */
+form {
+    text-align: left;
+}
+
+/* กำหนดสไตล์ของป้ายระบุ */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* กำหนดสไตล์ของช่องกรอกข้อมูล */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #777575;
+    border-radius: 3px;
+}
+
+/* กำหนดสไตล์ของปุ่ม SUBMIT */
+button {
+    background-color: #9f072d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #6e001a;
+}
+
+/* กำหนดสไตล์ของหัวเว็บไซต์ */
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #060606;
+}
+
+/* กำหนดสไตล์ของ container หลัก */
+.container {
+    text-align: center;
+    margin: 30px;
+}
+
+/* กำหนดสไตล์ของข้อความที่แสดง */
+.display-text {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+
